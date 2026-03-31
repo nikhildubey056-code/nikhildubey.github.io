@@ -1,2 +1,888 @@
 # nikhildubey.github.io
-https://www.google.com/search?q=%3C!DOCTYPE+html%3E+%3Chtml+lang%3D%22en%22%3E+%3Chead%3E+%3Cmeta+charset%3D%22UTF-8%22%3E+%3Cmeta+name%3D%22viewport%22+content%3D%22width%3Ddevice-width%2C+initial-scale%3D1.0%22%3E+%3Ctitle%3ENikhil+Dubey+%E2%80%94+Menace+to+Monk%3C%2Ftitle%3E+%3Clink+href%3D%22https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPlayfair%2BDisplay%3Aital%2Cwght%400%2C400%3B0%2C700%3B0%2C900%3B1%2C400%3B1%2C700%26family%3DCormorant%2BGaramond%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C600%3B1%2C300%3B1%2C400%26family%3DJetBrains%2BMono%3Awght%40300%3B400%3B500%26display%3Dswap%22+rel%3D%22stylesheet%22%3E+%3Cstyle%3E+%3Aroot+%7B+--ink%3A+%231a1410%3B+--parchment%3A+%23f5f0e8%3B+--gold%3A+%23c9a84c%3B+--gold-light%3A+%23e8d5a3%3B+--rust%3A+%238b3a2a%3B+--sage%3A+%234a6741%3B+--cream%3A+%23faf7f2%3B+--muted%3A+%236b5c4e%3B+--border%3A+rgba(201%2C168%2C76%2C0.3)%3B+%7D+*+%7B+margin%3A+0%3B+padding%3A+0%3B+box-sizing%3A+border-box%3B+%7D+html+%7B+scroll-behavior%3A+smooth%3B+%7D+body+%7B+background%3A+var(--cream)%3B+color%3A+var(--ink)%3B+font-family%3A+%27Cormorant+Garamond%27%2C+serif%3B+overflow-x%3A+hidden%3B+%7D+%2F*+Grain+overlay+*%2F+body%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+fixed%3B+inset%3A+0%3B+background-image%3A+url(%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg+viewBox%3D%270+0+256+256%27+xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%253E%253Cfilter+id%3D%27noise%27%253E%253CfeTurbulence+type%3D%27fractalNoise%27+baseFrequency%3D%270.9%27+numOctaves%3D%274%27+stitchTiles%3D%27stitch%27%2F%253E%253C%2Ffilter%253E%253Crect+width%3D%27100%2525%27+height%3D%27100%2525%27+filter%3D%27url(%2523noise)%27+opacity%3D%270.04%27%2F%253E%253C%2Fsvg%253E%22)%3B+pointer-events%3A+none%3B+z-index%3A+1000%3B+opacity%3A+0.4%3B+%7D+%2F*+%E2%94%80%E2%94%80+NAV+%E2%94%80%E2%94%80+*%2F+nav+%7B+position%3A+fixed%3B+top%3A+0%3B+left%3A+0%3B+right%3A+0%3B+z-index%3A+100%3B+display%3A+flex%3B+justify-content%3A+space-between%3B+align-items%3A+center%3B+padding%3A+1.2rem+4rem%3B+background%3A+rgba(250%2C247%2C242%2C0.85)%3B+backdrop-filter%3A+blur(12px)%3B+border-bottom%3A+1px+solid+var(--border)%3B+%7D+.nav-logo+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1.1rem%3B+font-weight%3A+700%3B+letter-spacing%3A+0.05em%3B+color%3A+var(--ink)%3B+text-decoration%3A+none%3B+%7D+.nav-logo+span+%7B+color%3A+var(--gold)%3B+%7D+.nav-links+%7B+display%3A+flex%3B+gap%3A+2.5rem%3B+list-style%3A+none%3B+%7D+.nav-links+a+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+color%3A+var(--muted)%3B+text-decoration%3A+none%3B+transition%3A+color+0.3s%3B+%7D+.nav-links+a%3Ahover+%7B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+HERO+%E2%94%80%E2%94%80+*%2F+.hero+%7B+min-height%3A+100vh%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+position%3A+relative%3B+overflow%3A+hidden%3B+%7D+.hero-left+%7B+display%3A+flex%3B+flex-direction%3A+column%3B+justify-content%3A+center%3B+padding%3A+8rem+4rem+4rem+6rem%3B+position%3A+relative%3B+%7D+.hero-tag+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.25em%3B+text-transform%3A+uppercase%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1.5rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.2s+forwards%3B+%7D+.hero-name+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(3rem%2C+5vw%2C+5.5rem)%3B+font-weight%3A+900%3B+line-height%3A+1.0%3B+color%3A+var(--ink)%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.4s+forwards%3B+%7D+.hero-name+em+%7B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+display%3A+block%3B+%7D+.hero-divider+%7B+width%3A+60px%3B+height%3A+2px%3B+background%3A+linear-gradient(90deg%2C+var(--gold)%2C+transparent)%3B+margin%3A+2rem+0%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.6s+forwards%3B+%7D+.hero-tagline+%7B+font-size%3A+1.35rem%3B+font-weight%3A+300%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+line-height%3A+1.6%3B+max-width%3A+400px%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.8s+forwards%3B+%7D+.hero-pills+%7B+display%3A+flex%3B+flex-wrap%3A+wrap%3B+gap%3A+0.6rem%3B+margin-top%3A+2.5rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1s+forwards%3B+%7D+.pill+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.1em%3B+padding%3A+0.4rem+1rem%3B+border%3A+1px+solid+var(--border)%3B+border-radius%3A+100px%3B+color%3A+var(--muted)%3B+background%3A+rgba(201%2C168%2C76%2C0.06)%3B+text-transform%3A+uppercase%3B+transition%3A+all+0.3s%3B+%7D+.pill%3Ahover+%7B+background%3A+var(--gold)%3B+color%3A+var(--cream)%3B+border-color%3A+var(--gold)%3B+%7D+.hero-cta+%7B+display%3A+flex%3B+gap%3A+1rem%3B+margin-top%3A+3rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1.2s+forwards%3B+%7D+.btn-primary+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+padding%3A+0.85rem+2rem%3B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+border%3A+none%3B+cursor%3A+pointer%3B+text-decoration%3A+none%3B+transition%3A+all+0.3s%3B+%7D+.btn-primary%3Ahover+%7B+background%3A+var(--gold)%3B+%7D+.btn-outline+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+padding%3A+0.85rem+2rem%3B+background%3A+transparent%3B+color%3A+var(--ink)%3B+border%3A+1px+solid+var(--ink)%3B+cursor%3A+pointer%3B+text-decoration%3A+none%3B+transition%3A+all+0.3s%3B+%7D+.btn-outline%3Ahover+%7B+border-color%3A+var(--gold)%3B+color%3A+var(--gold)%3B+%7D+.hero-right+%7B+position%3A+relative%3B+display%3A+flex%3B+align-items%3A+center%3B+justify-content%3A+center%3B+overflow%3A+hidden%3B+%7D+.hero-right%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+inset%3A+0%3B+background%3A+linear-gradient(135deg%2C+var(--gold-light)+0%25%2C+var(--parchment)+50%25%2C+%23d4c5a0+100%25)%3B+opacity%3A+0.4%3B+%7D+.hero-monogram+%7B+position%3A+relative%3B+z-index%3A+2%3B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+22vw%3B+font-weight%3A+900%3B+font-style%3A+italic%3B+color%3A+rgba(201%2C168%2C76%2C0.12)%3B+line-height%3A+1%3B+user-select%3A+none%3B+opacity%3A+0%3B+animation%3A+fadeIn+1.2s+0.5s+forwards%3B+%7D+.hero-quote+%7B+position%3A+absolute%3B+bottom%3A+3rem%3B+left%3A+50%25%3B+transform%3A+translateX(-50%25)%3B+text-align%3A+center%3B+z-index%3A+3%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1.4s+forwards%3B+%7D+.hero-quote+p+%7B+font-family%3A+%27Cormorant+Garamond%27%2C+serif%3B+font-size%3A+1.05rem%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+white-space%3A+nowrap%3B+%7D+.hero-quote+span+%7B+display%3A+block%3B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.2em%3B+color%3A+var(--gold)%3B+text-transform%3A+uppercase%3B+margin-top%3A+0.4rem%3B+%7D+%2F*+%E2%94%80%E2%94%80+SCROLL+INDICATOR+%E2%94%80%E2%94%80+*%2F+.scroll-indicator+%7B+position%3A+absolute%3B+bottom%3A+2rem%3B+left%3A+6rem%3B+display%3A+flex%3B+align-items%3A+center%3B+gap%3A+1rem%3B+opacity%3A+0%3B+animation%3A+fadeIn+1s+2s+forwards%3B+%7D+.scroll-line+%7B+width%3A+40px%3B+height%3A+1px%3B+background%3A+var(--gold)%3B+position%3A+relative%3B+overflow%3A+hidden%3B+%7D+.scroll-line%3A%3Aafter+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+top%3A+0%3B+left%3A+-100%25%3B+width%3A+100%25%3B+height%3A+100%25%3B+background%3A+var(--ink)%3B+animation%3A+scanLine+2s+infinite%3B+%7D+.scroll-text+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.2em%3B+text-transform%3A+uppercase%3B+color%3A+var(--muted)%3B+%7D+%2F*+%E2%94%80%E2%94%80+SECTION+BASE+%E2%94%80%E2%94%80+*%2F+section+%7B+padding%3A+7rem+6rem%3B+position%3A+relative%3B+%7D+.section-label+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.3em%3B+text-transform%3A+uppercase%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1rem%3B+%7D+.section-title+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(2rem%2C+3.5vw%2C+3.2rem)%3B+font-weight%3A+700%3B+line-height%3A+1.1%3B+color%3A+var(--ink)%3B+margin-bottom%3A+1.5rem%3B+%7D+.section-title+em+%7B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+ABOUT+%E2%94%80%E2%94%80+*%2F+.about+%7B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1.5fr%3B+gap%3A+6rem%3B+align-items%3A+center%3B+%7D+.about+.section-label+%7B+color%3A+var(--gold)%3B+%7D+.about+.section-title+%7B+color%3A+var(--cream)%3B+%7D+.about+.section-title+em+%7B+color%3A+var(--gold)%3B+%7D+.about-text+%7B+font-size%3A+1.15rem%3B+line-height%3A+1.9%3B+color%3A+rgba(250%2C247%2C242%2C0.75)%3B+font-weight%3A+300%3B+%7D+.about-text+p+%2B+p+%7B+margin-top%3A+1.2rem%3B+%7D+.about-text+strong+%7B+color%3A+var(--gold-light)%3B+font-weight%3A+600%3B+%7D+.about-stats+%7B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+gap%3A+2rem%3B+%7D+.stat-card+%7B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.2)%3B+padding%3A+2rem%3B+position%3A+relative%3B+overflow%3A+hidden%3B+transition%3A+border-color+0.3s%3B+%7D+.stat-card%3Ahover+%7B+border-color%3A+var(--gold)%3B+%7D+.stat-card%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+top%3A+0%3B+left%3A+0%3B+width%3A+3px%3B+height%3A+0%3B+background%3A+var(--gold)%3B+transition%3A+height+0.4s%3B+%7D+.stat-card%3Ahover%3A%3Abefore+%7B+height%3A+100%25%3B+%7D+.stat-number+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+2.8rem%3B+font-weight%3A+900%3B+color%3A+var(--gold)%3B+line-height%3A+1%3B+%7D+.stat-label+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(250%2C247%2C242%2C0.5)%3B+margin-top%3A+0.5rem%3B+%7D+%2F*+%E2%94%80%E2%94%80+DUAL+IDENTITY+%E2%94%80%E2%94%80+*%2F+.dual+%7B+background%3A+var(--parchment)%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+gap%3A+0%3B+padding%3A+0%3B+%7D+.dual-card+%7B+padding%3A+6rem%3B+position%3A+relative%3B+overflow%3A+hidden%3B+transition%3A+all+0.4s%3B+%7D+.dual-card%3Afirst-child+%7B+background%3A+%231a2a1a%3B+color%3A+var(--cream)%3B+%7D+.dual-card%3Alast-child+%7B+background%3A+%232a1a0e%3B+color%3A+var(--cream)%3B+%7D+.dual-card%3Ahover+%7B+transform%3A+scale(1.02)%3B+z-index%3A+2%3B+%7D+.dual-icon+%7B+font-size%3A+3.5rem%3B+margin-bottom%3A+2rem%3B+display%3A+block%3B+%7D+.dual-title+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+2rem%3B+font-weight%3A+700%3B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1rem%3B+%7D+.dual-sub+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.2em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(250%2C247%2C242%2C0.5)%3B+margin-bottom%3A+1.5rem%3B+%7D+.dual-desc+%7B+font-size%3A+1.05rem%3B+line-height%3A+1.8%3B+color%3A+rgba(250%2C247%2C242%2C0.7)%3B+font-weight%3A+300%3B+%7D+.dual-skills+%7B+display%3A+flex%3B+flex-wrap%3A+wrap%3B+gap%3A+0.5rem%3B+margin-top%3A+2rem%3B+%7D+.dual-skill+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.1em%3B+padding%3A+0.35rem+0.8rem%3B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.3)%3B+color%3A+var(--gold-light)%3B+text-transform%3A+uppercase%3B+%7D+%2F*+%E2%94%80%E2%94%80+EDUCATION+%E2%94%80%E2%94%80+*%2F+.education+%7B+background%3A+var(--cream)%3B+%7D+.edu-timeline+%7B+position%3A+relative%3B+margin-top%3A+4rem%3B+padding-left%3A+3rem%3B+%7D+.edu-timeline%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+left%3A+0%3B+top%3A+0%3B+bottom%3A+0%3B+width%3A+1px%3B+background%3A+linear-gradient(180deg%2C+var(--gold)%2C+transparent)%3B+%7D+.edu-item+%7B+position%3A+relative%3B+padding%3A+0+0+4rem+3rem%3B+opacity%3A+0%3B+transform%3A+translateX(-20px)%3B+transition%3A+all+0.6s%3B+%7D+.edu-item.visible+%7B+opacity%3A+1%3B+transform%3A+translateX(0)%3B+%7D+.edu-item%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+left%3A+-4px%3B+top%3A+8px%3B+width%3A+9px%3B+height%3A+9px%3B+background%3A+var(--gold)%3B+border-radius%3A+50%25%3B+box-shadow%3A+0+0+0+3px+var(--cream)%2C+0+0+0+4px+var(--gold)%3B+%7D+.edu-year+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.2em%3B+color%3A+var(--gold)%3B+text-transform%3A+uppercase%3B+margin-bottom%3A+0.5rem%3B+%7D+.edu-degree+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1.5rem%3B+font-weight%3A+700%3B+color%3A+var(--ink)%3B+margin-bottom%3A+0.3rem%3B+%7D+.edu-school+%7B+font-size%3A+1.05rem%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+%7D+%2F*+%E2%94%80%E2%94%80+PHILOSOPHY+%E2%94%80%E2%94%80+*%2F+.philosophy+%7B+background%3A+var(--gold)%3B+text-align%3A+center%3B+padding%3A+8rem+6rem%3B+%7D+.philosophy-quote+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(1.8rem%2C+3vw%2C+3rem)%3B+font-weight%3A+400%3B+font-style%3A+italic%3B+color%3A+var(--ink)%3B+line-height%3A+1.4%3B+max-width%3A+900px%3B+margin%3A+0+auto+2rem%3B+%7D+.philosophy-attr+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.25em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(26%2C20%2C16%2C0.6)%3B+%7D+%2F*+%E2%94%80%E2%94%80+CONTACT+%E2%94%80%E2%94%80+*%2F+.contact+%7B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+text-align%3A+center%3B+padding%3A+8rem+6rem%3B+%7D+.contact+.section-label+%7B+color%3A+var(--gold)%3B+%7D+.contact+.section-title+%7B+color%3A+var(--cream)%3B+%7D+.contact+.section-title+em+%7B+color%3A+var(--gold)%3B+%7D+.contact-sub+%7B+font-size%3A+1.15rem%3B+color%3A+rgba(250%2C247%2C242%2C0.6)%3B+font-style%3A+italic%3B+margin-bottom%3A+3rem%3B+font-weight%3A+300%3B+%7D+.contact-links+%7B+display%3A+flex%3B+justify-content%3A+center%3B+gap%3A+2rem%3B+flex-wrap%3A+wrap%3B+%7D+.contact-link+%7B+display%3A+flex%3B+align-items%3A+center%3B+gap%3A+0.8rem%3B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.75rem%3B+letter-spacing%3A+0.1em%3B+color%3A+rgba(250%2C247%2C242%2C0.7)%3B+text-decoration%3A+none%3B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.2)%3B+padding%3A+1rem+1.8rem%3B+transition%3A+all+0.3s%3B+%7D+.contact-link%3Ahover+%7B+color%3A+var(--gold)%3B+border-color%3A+var(--gold)%3B+background%3A+rgba(201%2C168%2C76%2C0.05)%3B+%7D+%2F*+%E2%94%80%E2%94%80+FOOTER+%E2%94%80%E2%94%80+*%2F+footer+%7B+background%3A+%230e0c0a%3B+padding%3A+2rem+6rem%3B+display%3A+flex%3B+justify-content%3A+space-between%3B+align-items%3A+center%3B+border-top%3A+1px+solid+rgba(201%2C168%2C76%2C0.1)%3B+%7D+.footer-text+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.15em%3B+color%3A+rgba(250%2C247%2C242%2C0.3)%3B+text-transform%3A+uppercase%3B+%7D+.footer-brand+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1rem%3B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+ANIMATIONS+%E2%94%80%E2%94%80+*%2F+%40keyframes+fadeUp+%7B+from+%7B+opacity%3A+0%3B+transform%3A+translateY(24px)%3B+%7D+to+%7B+opacity%3A+1%3B+transform%3A+translateY(0)%3B+%7D+%7D+%40keyframes+fadeIn+%7B+from+%7B+opacity%3A+0%3B+%7D+to+%7B+opacity%3A+1%3B+%7D+%7D+%40keyframes+scanLine+%7B+0%25+%7B+left%3A+-100%25%3B+%7D+100%25+%7B+left%3A+200%25%3B+%7D+%7D+%2F*+%E2%94%80%E2%94%80+RESPONSIVE+%E2%94%80%E2%94%80+*%2F+%40media+(max-width%3A+900px)+%7B+nav+%7B+padding%3A+1rem+1.5rem%3B+%7D+.nav-links+%7B+display%3A+none%3B+%7D+.hero+%7B+grid-template-columns%3A+1fr%3B+min-height%3A+auto%3B+%7D+.hero-left+%7B+padding%3A+7rem+2rem+3rem%3B+%7D+.hero-right+%7B+height%3A+220px%3B+%7D+.about+%7B+grid-template-columns%3A+1fr%3B+gap%3A+3rem%3B+padding%3A+4rem+2rem%3B+%7D+.dual+%7B+grid-template-columns%3A+1fr%3B+%7D+.dual-card+%7B+padding%3A+3rem+2rem%3B+%7D+section+%7B+padding%3A+4rem+2rem%3B+%7D+.contact-links+%7B+flex-direction%3A+column%3B+align-items%3A+center%3B+%7D+footer+%7B+flex-direction%3A+column%3B+gap%3A+1rem%3B+text-align%3A+center%3B+%7D+.scroll-indicator+%7B+display%3A+none%3B+%7D+%7D+%3C%2Fstyle%3E+%3C%2Fhead%3E+%3Cbody%3E+%3C!--+NAV+--%3E+%3Cnav%3E+%3Ca+href%3D%22%23%22+class%3D%22nav-logo%22%3EN%3Cspan%3E.%3C%2Fspan%3EDubey%3C%2Fa%3E+%3Cul+class%3D%22nav-links%22%3E+%3Cli%3E%3Ca+href%3D%22%23about%22%3EAbout%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23identity%22%3EIdentity%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23education%22%3EEducation%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23contact%22%3EContact%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3C%2Fnav%3E+%3C!--+HERO+--%3E+%3Csection+class%3D%22hero%22%3E+%3Cdiv+class%3D%22hero-left%22%3E+%3Cp+class%3D%22hero-tag%22%3E%E2%9C%A6+Ranchi%2C+Jharkhand+%C2%B7+India%3C%2Fp%3E+%3Ch1+class%3D%22hero-name%22%3E+Nikhil%3Cbr%3E+%3Cem%3EDubey%3C%2Fem%3E+%3C%2Fh1%3E+%3Cdiv+class%3D%22hero-divider%22%3E%3C%2Fdiv%3E+%3Cp+class%3D%22hero-tagline%22%3E+The+most+interesting+ideas+live+at+the+intersection+of+disciplines.+%3C%2Fp%3E+%3Cdiv+class%3D%22hero-pills%22%3E+%3Cspan+class%3D%22pill%22%3EMCA+Candidate%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EUPSC+Aspirant%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EPython+%C2%B7+ML%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3ESociology%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EAvid+Reader%3C%2Fspan%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-cta%22%3E+%3Ca+href%3D%22%23about%22+class%3D%22btn-primary%22%3EExplore%3C%2Fa%3E+%3Ca+href%3D%22mailto%3Anikhildubey056%40gmail.com%22+class%3D%22btn-outline%22%3EGet+in+Touch%3C%2Fa%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22scroll-indicator%22%3E+%3Cdiv+class%3D%22scroll-line%22%3E%3C%2Fdiv%3E+%3Cspan+class%3D%22scroll-text%22%3EScroll%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-right%22%3E+%3Cdiv+class%3D%22hero-monogram%22%3EN%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-quote%22%3E+%3Cp%3E%22Menace+to+Monk%22%3C%2Fp%3E+%3Cspan%3EA+transformation+story%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+ABOUT+--%3E+%3Csection+class%3D%22about%22+id%3D%22about%22%3E+%3Cdiv%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Who+I+Am%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EA+mind+that%3Cbr%3Erefuses+to%3Cbr%3E%3Cem%3Estay+in+one+lane%3C%2Fem%3E%3C%2Fh2%3E+%3C%2Fdiv%3E+%3Cdiv%3E+%3Cdiv+class%3D%22about-text%22%3E+%3Cp%3EI+am+a+%3Cstrong%3Ecomputer+science+enthusiast%3C%2Fstrong%3E+with+a+solid+foundation+in+programming%2C+data+structures%2C+networking%2C+and+operating+systems+%E2%80%94+currently+pursuing+my+MCA+at+Marwari+College%2C+Ranchi.%3C%2Fp%3E+%3Cp%3EBeyond+the+terminal%2C+I+have+cultivated+a+working+knowledge+of+%3Cstrong%3EUPSC-oriented+subjects%3C%2Fstrong%3E+%E2%80%94+particularly+Sociology+and+General+Studies+%E2%80%94+which+has+sharpened+my+ability+to+think+critically+about+society%2C+governance%2C+and+human+systems.%3C%2Fp%3E+%3Cp%3EReading+%3Cstrong%3Eliterary+fiction%3C%2Fstrong%3E+strengthens+my+analytical+reasoning+and+articulation.+I+believe+technology+always+operates+within+a+human+context%2C+and+the+best+solutions+are+built+by+people+who+can+think+both+systemically+and+empathetically.%3C%2Fp%3E+%3Cp%3EThat%27s+the+kind+of+thinker+I+am+working+to+become.%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22about-stats%22+style%3D%22margin-top%3A3rem%3B%22%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EMCA%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EComputer+Science%3Cbr%3EMarwari+College%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EIAS%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EAspiring+Civil%3Cbr%3EServant+%C2%B7+UPSC%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EML%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EMachine+Learning%3Cbr%3E%26+Python+Dev%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3E%F0%9F%93%9A%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EAvid+Reader%3Cbr%3ELiterary+Fiction%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+DUAL+IDENTITY+--%3E+%3Cdiv+class%3D%22dual%22+id%3D%22identity%22%3E+%3Cdiv+class%3D%22dual-card%22%3E+%3Cspan+class%3D%22dual-icon%22%3E%F0%9F%92%BB%3C%2Fspan%3E+%3Cdiv+class%3D%22dual-sub%22%3ETechnical+Identity%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-title%22%3EThe+Engineer%3C%2Fdiv%3E+%3Cp+class%3D%22dual-desc%22%3E+Grounded+in+the+core+pillars+of+computer+science+%E2%80%94+from+programming+paradigms+to+algorithms%2C+networking+protocols+to+operating+systems.+Currently+building+expertise+in+Machine+Learning+and+AI.+%3C%2Fp%3E+%3Cdiv+class%3D%22dual-skills%22%3E+%3Cspan+class%3D%22dual-skill%22%3EPython%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EC%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EMachine+Learning%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EAlgorithms%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EDSA%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3ENetworking%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EOS%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-card%22%3E+%3Cspan+class%3D%22dual-icon%22%3E%F0%9F%8F%9B%EF%B8%8F%3C%2Fspan%3E+%3Cdiv+class%3D%22dual-sub%22%3ECivil+Service+Identity%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-title%22%3EThe+Aspirant%3C%2Fdiv%3E+%3Cp+class%3D%22dual-desc%22%3E+Deeply+invested+in+UPSC+preparation+%E2%80%94+studying+Sociology+and+General+Studies+to+analyze+social+structures%2C+governance+frameworks%2C+and+human+systems+with+rigor+and+nuance.+Ranchi+%E2%86%92+LBSNAA.+%3C%2Fp%3E+%3Cdiv+class%3D%22dual-skills%22%3E+%3Cspan+class%3D%22dual-skill%22%3ESociology%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EGeneral+Studies%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EPolity%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EHistory%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EGovernance%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EPublic+Policy%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C!--+EDUCATION+--%3E+%3Csection+class%3D%22education%22+id%3D%22education%22%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Academic+Journey%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EEducation+%26%3Cbr%3E%3Cem%3EFormation%3C%2Fem%3E%3C%2Fh2%3E+%3Cdiv+class%3D%22edu-timeline%22%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EMay+2024+%E2%80%94+June+2026%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EMaster+of+Computer+Applications%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3EMarwari+College%2C+Ranchi+%C2%B7+Computer+Science%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EMay+2021+%E2%80%94+May+2024%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EBachelor+of+Applied+Science%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3EGossner+College%2C+Ranchi+%C2%B7+Information+Technology%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EJuly+2019+%E2%80%94+July+2021%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EIntermediate+%C2%B7+Class+XII%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3ESt.+Xavier%27s+College%2C+Ranchi+%C2%B7+Science%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+PHILOSOPHY+--%3E+%3Csection+class%3D%22philosophy%22%3E+%3Cp+class%3D%22philosophy-quote%22%3E+%22The+best+solutions+are+built+by+people+who+can+think+systemically+and+empathetically+%E2%80%94+who+can+write+clean+code+and+communicate+it+clearly%2C+who+can+solve+a+problem+and+ask+whether+it%27s+the+right+problem+to+solve.%22+%3C%2Fp%3E+%3Cp+class%3D%22philosophy-attr%22%3E%E2%80%94+Nikhil+Dubey+%C2%B7+Personal+Philosophy%3C%2Fp%3E+%3C%2Fsection%3E+%3C!--+CONTACT+--%3E+%3Csection+class%3D%22contact%22+id%3D%22contact%22%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Let%27s+Connect%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EReach+Out+%26%3Cbr%3E%3Cem%3ESay+Hello%3C%2Fem%3E%3C%2Fh2%3E+%3Cp+class%3D%22contact-sub%22%3EAlways+open+to+conversations+about+technology%2C+civil+services%2C+books%2C+or+ideas.%3C%2Fp%3E+%3Cdiv+class%3D%22contact-links%22%3E+%3Ca+href%3D%22mailto%3Anikhildubey056%40gmail.com%22+class%3D%22contact-link%22%3E+%3Cspan%3E%E2%9C%89%3C%2Fspan%3E+nikhildubey056%40gmail.com+%3C%2Fa%3E+%3Ca+href%3D%22https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnikhildubey01%22+target%3D%22_blank%22+class%3D%22contact-link%22%3E+%3Cspan%3Ein%3C%2Fspan%3E+linkedin.com%2Fin%2Fnikhildubey01+%3C%2Fa%3E+%3Ca+href%3D%22%23%22+class%3D%22contact-link%22%3E+%3Cspan%3E%F0%9F%93%8D%3C%2Fspan%3E+Ranchi%2C+Jharkhand%2C+India+%3C%2Fa%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+FOOTER+--%3E+%3Cfooter%3E+%3Cspan+class%3D%22footer-text%22%3E%C2%A9+2026+Nikhil+Dubey+%C2%B7+All+rights+reserved%3C%2Fspan%3E+%3Cspan+class%3D%22footer-brand%22%3EMenace+to+Monk%3C%2Fspan%3E+%3Cspan+class%3D%22footer-text%22%3EBuilt+with+purpose%3C%2Fspan%3E+%3C%2Ffooter%3E+%3Cscript%3E+%2F%2F+Scroll+reveal+for+education+items+const+observer+%3D+new+IntersectionObserver((entries)+%3D%3E+%7B+entries.forEach((entry%2C+i)+%3D%3E+%7B+if+(entry.isIntersecting)+%7B+setTimeout(()+%3D%3E+entry.target.classList.add(%27visible%27)%2C+i+*+150)%3B+%7D+%7D)%3B+%7D%2C+%7B+threshold%3A+0.2+%7D)%3B+document.querySelectorAll(%27.edu-item%27).forEach(el+%3D%3E+observer.observe(el))%3B+%2F%2F+Smooth+active+nav+const+sections+%3D+document.querySelectorAll(%27section%5Bid%5D%2C+div%5Bid%5D%27)%3B+const+navLinks+%3D+document.querySelectorAll(%27.nav-links+a%27)%3B+window.addEventListener(%27scroll%27%2C+()+%3D%3E+%7B+let+current+%3D+%27%27%3B+sections.forEach(sec+%3D%3E+%7B+if+(window.scrollY+%3E%3D+sec.offsetTop+-+200)+current+%3D+sec.id%3B+%7D)%3B+navLinks.forEach(link+%3D%3E+%7B+link.style.color+%3D+link.getAttribute(%27href%27)+%3D%3D%3D+%60%23%24%7Bcurrent%7D%60+%3F+%27var(--gold)%27+%3A+%27%27%3B+%7D)%3B+%7D)%3B+%3C%2Fscript%3E+%3C%2Fbody%3E+%3C%2Fhtml%3E&oq=%3C!DOCTYPE+html%3E+%3Chtml+lang%3D%22en%22%3E+%3Chead%3E+%3Cmeta+charset%3D%22UTF-8%22%3E+%3Cmeta+name%3D%22viewport%22+content%3D%22width%3Ddevice-width%2C+initial-scale%3D1.0%22%3E+%3Ctitle%3ENikhil+Dubey+%E2%80%94+Menace+to+Monk%3C%2Ftitle%3E+%3Clink+href%3D%22https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPlayfair%2BDisplay%3Aital%2Cwght%400%2C400%3B0%2C700%3B0%2C900%3B1%2C400%3B1%2C700%26family%3DCormorant%2BGaramond%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C600%3B1%2C300%3B1%2C400%26family%3DJetBrains%2BMono%3Awght%40300%3B400%3B500%26display%3Dswap%22+rel%3D%22stylesheet%22%3E+%3Cstyle%3E+%3Aroot+%7B+--ink%3A+%231a1410%3B+--parchment%3A+%23f5f0e8%3B+--gold%3A+%23c9a84c%3B+--gold-light%3A+%23e8d5a3%3B+--rust%3A+%238b3a2a%3B+--sage%3A+%234a6741%3B+--cream%3A+%23faf7f2%3B+--muted%3A+%236b5c4e%3B+--border%3A+rgba(201%2C168%2C76%2C0.3)%3B+%7D+*+%7B+margin%3A+0%3B+padding%3A+0%3B+box-sizing%3A+border-box%3B+%7D+html+%7B+scroll-behavior%3A+smooth%3B+%7D+body+%7B+background%3A+var(--cream)%3B+color%3A+var(--ink)%3B+font-family%3A+%27Cormorant+Garamond%27%2C+serif%3B+overflow-x%3A+hidden%3B+%7D+%2F*+Grain+overlay+*%2F+body%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+fixed%3B+inset%3A+0%3B+background-image%3A+url(%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg+viewBox%3D%270+0+256+256%27+xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%253E%253Cfilter+id%3D%27noise%27%253E%253CfeTurbulence+type%3D%27fractalNoise%27+baseFrequency%3D%270.9%27+numOctaves%3D%274%27+stitchTiles%3D%27stitch%27%2F%253E%253C%2Ffilter%253E%253Crect+width%3D%27100%2525%27+height%3D%27100%2525%27+filter%3D%27url(%2523noise)%27+opacity%3D%270.04%27%2F%253E%253C%2Fsvg%253E%22)%3B+pointer-events%3A+none%3B+z-index%3A+1000%3B+opacity%3A+0.4%3B+%7D+%2F*+%E2%94%80%E2%94%80+NAV+%E2%94%80%E2%94%80+*%2F+nav+%7B+position%3A+fixed%3B+top%3A+0%3B+left%3A+0%3B+right%3A+0%3B+z-index%3A+100%3B+display%3A+flex%3B+justify-content%3A+space-between%3B+align-items%3A+center%3B+padding%3A+1.2rem+4rem%3B+background%3A+rgba(250%2C247%2C242%2C0.85)%3B+backdrop-filter%3A+blur(12px)%3B+border-bottom%3A+1px+solid+var(--border)%3B+%7D+.nav-logo+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1.1rem%3B+font-weight%3A+700%3B+letter-spacing%3A+0.05em%3B+color%3A+var(--ink)%3B+text-decoration%3A+none%3B+%7D+.nav-logo+span+%7B+color%3A+var(--gold)%3B+%7D+.nav-links+%7B+display%3A+flex%3B+gap%3A+2.5rem%3B+list-style%3A+none%3B+%7D+.nav-links+a+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+color%3A+var(--muted)%3B+text-decoration%3A+none%3B+transition%3A+color+0.3s%3B+%7D+.nav-links+a%3Ahover+%7B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+HERO+%E2%94%80%E2%94%80+*%2F+.hero+%7B+min-height%3A+100vh%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+position%3A+relative%3B+overflow%3A+hidden%3B+%7D+.hero-left+%7B+display%3A+flex%3B+flex-direction%3A+column%3B+justify-content%3A+center%3B+padding%3A+8rem+4rem+4rem+6rem%3B+position%3A+relative%3B+%7D+.hero-tag+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.25em%3B+text-transform%3A+uppercase%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1.5rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.2s+forwards%3B+%7D+.hero-name+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(3rem%2C+5vw%2C+5.5rem)%3B+font-weight%3A+900%3B+line-height%3A+1.0%3B+color%3A+var(--ink)%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.4s+forwards%3B+%7D+.hero-name+em+%7B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+display%3A+block%3B+%7D+.hero-divider+%7B+width%3A+60px%3B+height%3A+2px%3B+background%3A+linear-gradient(90deg%2C+var(--gold)%2C+transparent)%3B+margin%3A+2rem+0%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.6s+forwards%3B+%7D+.hero-tagline+%7B+font-size%3A+1.35rem%3B+font-weight%3A+300%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+line-height%3A+1.6%3B+max-width%3A+400px%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+0.8s+forwards%3B+%7D+.hero-pills+%7B+display%3A+flex%3B+flex-wrap%3A+wrap%3B+gap%3A+0.6rem%3B+margin-top%3A+2.5rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1s+forwards%3B+%7D+.pill+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.1em%3B+padding%3A+0.4rem+1rem%3B+border%3A+1px+solid+var(--border)%3B+border-radius%3A+100px%3B+color%3A+var(--muted)%3B+background%3A+rgba(201%2C168%2C76%2C0.06)%3B+text-transform%3A+uppercase%3B+transition%3A+all+0.3s%3B+%7D+.pill%3Ahover+%7B+background%3A+var(--gold)%3B+color%3A+var(--cream)%3B+border-color%3A+var(--gold)%3B+%7D+.hero-cta+%7B+display%3A+flex%3B+gap%3A+1rem%3B+margin-top%3A+3rem%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1.2s+forwards%3B+%7D+.btn-primary+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+padding%3A+0.85rem+2rem%3B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+border%3A+none%3B+cursor%3A+pointer%3B+text-decoration%3A+none%3B+transition%3A+all+0.3s%3B+%7D+.btn-primary%3Ahover+%7B+background%3A+var(--gold)%3B+%7D+.btn-outline+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+padding%3A+0.85rem+2rem%3B+background%3A+transparent%3B+color%3A+var(--ink)%3B+border%3A+1px+solid+var(--ink)%3B+cursor%3A+pointer%3B+text-decoration%3A+none%3B+transition%3A+all+0.3s%3B+%7D+.btn-outline%3Ahover+%7B+border-color%3A+var(--gold)%3B+color%3A+var(--gold)%3B+%7D+.hero-right+%7B+position%3A+relative%3B+display%3A+flex%3B+align-items%3A+center%3B+justify-content%3A+center%3B+overflow%3A+hidden%3B+%7D+.hero-right%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+inset%3A+0%3B+background%3A+linear-gradient(135deg%2C+var(--gold-light)+0%25%2C+var(--parchment)+50%25%2C+%23d4c5a0+100%25)%3B+opacity%3A+0.4%3B+%7D+.hero-monogram+%7B+position%3A+relative%3B+z-index%3A+2%3B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+22vw%3B+font-weight%3A+900%3B+font-style%3A+italic%3B+color%3A+rgba(201%2C168%2C76%2C0.12)%3B+line-height%3A+1%3B+user-select%3A+none%3B+opacity%3A+0%3B+animation%3A+fadeIn+1.2s+0.5s+forwards%3B+%7D+.hero-quote+%7B+position%3A+absolute%3B+bottom%3A+3rem%3B+left%3A+50%25%3B+transform%3A+translateX(-50%25)%3B+text-align%3A+center%3B+z-index%3A+3%3B+opacity%3A+0%3B+animation%3A+fadeUp+0.8s+1.4s+forwards%3B+%7D+.hero-quote+p+%7B+font-family%3A+%27Cormorant+Garamond%27%2C+serif%3B+font-size%3A+1.05rem%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+white-space%3A+nowrap%3B+%7D+.hero-quote+span+%7B+display%3A+block%3B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.2em%3B+color%3A+var(--gold)%3B+text-transform%3A+uppercase%3B+margin-top%3A+0.4rem%3B+%7D+%2F*+%E2%94%80%E2%94%80+SCROLL+INDICATOR+%E2%94%80%E2%94%80+*%2F+.scroll-indicator+%7B+position%3A+absolute%3B+bottom%3A+2rem%3B+left%3A+6rem%3B+display%3A+flex%3B+align-items%3A+center%3B+gap%3A+1rem%3B+opacity%3A+0%3B+animation%3A+fadeIn+1s+2s+forwards%3B+%7D+.scroll-line+%7B+width%3A+40px%3B+height%3A+1px%3B+background%3A+var(--gold)%3B+position%3A+relative%3B+overflow%3A+hidden%3B+%7D+.scroll-line%3A%3Aafter+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+top%3A+0%3B+left%3A+-100%25%3B+width%3A+100%25%3B+height%3A+100%25%3B+background%3A+var(--ink)%3B+animation%3A+scanLine+2s+infinite%3B+%7D+.scroll-text+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.2em%3B+text-transform%3A+uppercase%3B+color%3A+var(--muted)%3B+%7D+%2F*+%E2%94%80%E2%94%80+SECTION+BASE+%E2%94%80%E2%94%80+*%2F+section+%7B+padding%3A+7rem+6rem%3B+position%3A+relative%3B+%7D+.section-label+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.3em%3B+text-transform%3A+uppercase%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1rem%3B+%7D+.section-title+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(2rem%2C+3.5vw%2C+3.2rem)%3B+font-weight%3A+700%3B+line-height%3A+1.1%3B+color%3A+var(--ink)%3B+margin-bottom%3A+1.5rem%3B+%7D+.section-title+em+%7B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+ABOUT+%E2%94%80%E2%94%80+*%2F+.about+%7B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1.5fr%3B+gap%3A+6rem%3B+align-items%3A+center%3B+%7D+.about+.section-label+%7B+color%3A+var(--gold)%3B+%7D+.about+.section-title+%7B+color%3A+var(--cream)%3B+%7D+.about+.section-title+em+%7B+color%3A+var(--gold)%3B+%7D+.about-text+%7B+font-size%3A+1.15rem%3B+line-height%3A+1.9%3B+color%3A+rgba(250%2C247%2C242%2C0.75)%3B+font-weight%3A+300%3B+%7D+.about-text+p+%2B+p+%7B+margin-top%3A+1.2rem%3B+%7D+.about-text+strong+%7B+color%3A+var(--gold-light)%3B+font-weight%3A+600%3B+%7D+.about-stats+%7B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+gap%3A+2rem%3B+%7D+.stat-card+%7B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.2)%3B+padding%3A+2rem%3B+position%3A+relative%3B+overflow%3A+hidden%3B+transition%3A+border-color+0.3s%3B+%7D+.stat-card%3Ahover+%7B+border-color%3A+var(--gold)%3B+%7D+.stat-card%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+top%3A+0%3B+left%3A+0%3B+width%3A+3px%3B+height%3A+0%3B+background%3A+var(--gold)%3B+transition%3A+height+0.4s%3B+%7D+.stat-card%3Ahover%3A%3Abefore+%7B+height%3A+100%25%3B+%7D+.stat-number+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+2.8rem%3B+font-weight%3A+900%3B+color%3A+var(--gold)%3B+line-height%3A+1%3B+%7D+.stat-label+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.15em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(250%2C247%2C242%2C0.5)%3B+margin-top%3A+0.5rem%3B+%7D+%2F*+%E2%94%80%E2%94%80+DUAL+IDENTITY+%E2%94%80%E2%94%80+*%2F+.dual+%7B+background%3A+var(--parchment)%3B+display%3A+grid%3B+grid-template-columns%3A+1fr+1fr%3B+gap%3A+0%3B+padding%3A+0%3B+%7D+.dual-card+%7B+padding%3A+6rem%3B+position%3A+relative%3B+overflow%3A+hidden%3B+transition%3A+all+0.4s%3B+%7D+.dual-card%3Afirst-child+%7B+background%3A+%231a2a1a%3B+color%3A+var(--cream)%3B+%7D+.dual-card%3Alast-child+%7B+background%3A+%232a1a0e%3B+color%3A+var(--cream)%3B+%7D+.dual-card%3Ahover+%7B+transform%3A+scale(1.02)%3B+z-index%3A+2%3B+%7D+.dual-icon+%7B+font-size%3A+3.5rem%3B+margin-bottom%3A+2rem%3B+display%3A+block%3B+%7D+.dual-title+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+2rem%3B+font-weight%3A+700%3B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+margin-bottom%3A+1rem%3B+%7D+.dual-sub+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.2em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(250%2C247%2C242%2C0.5)%3B+margin-bottom%3A+1.5rem%3B+%7D+.dual-desc+%7B+font-size%3A+1.05rem%3B+line-height%3A+1.8%3B+color%3A+rgba(250%2C247%2C242%2C0.7)%3B+font-weight%3A+300%3B+%7D+.dual-skills+%7B+display%3A+flex%3B+flex-wrap%3A+wrap%3B+gap%3A+0.5rem%3B+margin-top%3A+2rem%3B+%7D+.dual-skill+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.1em%3B+padding%3A+0.35rem+0.8rem%3B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.3)%3B+color%3A+var(--gold-light)%3B+text-transform%3A+uppercase%3B+%7D+%2F*+%E2%94%80%E2%94%80+EDUCATION+%E2%94%80%E2%94%80+*%2F+.education+%7B+background%3A+var(--cream)%3B+%7D+.edu-timeline+%7B+position%3A+relative%3B+margin-top%3A+4rem%3B+padding-left%3A+3rem%3B+%7D+.edu-timeline%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+left%3A+0%3B+top%3A+0%3B+bottom%3A+0%3B+width%3A+1px%3B+background%3A+linear-gradient(180deg%2C+var(--gold)%2C+transparent)%3B+%7D+.edu-item+%7B+position%3A+relative%3B+padding%3A+0+0+4rem+3rem%3B+opacity%3A+0%3B+transform%3A+translateX(-20px)%3B+transition%3A+all+0.6s%3B+%7D+.edu-item.visible+%7B+opacity%3A+1%3B+transform%3A+translateX(0)%3B+%7D+.edu-item%3A%3Abefore+%7B+content%3A+%27%27%3B+position%3A+absolute%3B+left%3A+-4px%3B+top%3A+8px%3B+width%3A+9px%3B+height%3A+9px%3B+background%3A+var(--gold)%3B+border-radius%3A+50%25%3B+box-shadow%3A+0+0+0+3px+var(--cream)%2C+0+0+0+4px+var(--gold)%3B+%7D+.edu-year+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.65rem%3B+letter-spacing%3A+0.2em%3B+color%3A+var(--gold)%3B+text-transform%3A+uppercase%3B+margin-bottom%3A+0.5rem%3B+%7D+.edu-degree+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1.5rem%3B+font-weight%3A+700%3B+color%3A+var(--ink)%3B+margin-bottom%3A+0.3rem%3B+%7D+.edu-school+%7B+font-size%3A+1.05rem%3B+font-style%3A+italic%3B+color%3A+var(--muted)%3B+%7D+%2F*+%E2%94%80%E2%94%80+PHILOSOPHY+%E2%94%80%E2%94%80+*%2F+.philosophy+%7B+background%3A+var(--gold)%3B+text-align%3A+center%3B+padding%3A+8rem+6rem%3B+%7D+.philosophy-quote+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+clamp(1.8rem%2C+3vw%2C+3rem)%3B+font-weight%3A+400%3B+font-style%3A+italic%3B+color%3A+var(--ink)%3B+line-height%3A+1.4%3B+max-width%3A+900px%3B+margin%3A+0+auto+2rem%3B+%7D+.philosophy-attr+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.7rem%3B+letter-spacing%3A+0.25em%3B+text-transform%3A+uppercase%3B+color%3A+rgba(26%2C20%2C16%2C0.6)%3B+%7D+%2F*+%E2%94%80%E2%94%80+CONTACT+%E2%94%80%E2%94%80+*%2F+.contact+%7B+background%3A+var(--ink)%3B+color%3A+var(--cream)%3B+text-align%3A+center%3B+padding%3A+8rem+6rem%3B+%7D+.contact+.section-label+%7B+color%3A+var(--gold)%3B+%7D+.contact+.section-title+%7B+color%3A+var(--cream)%3B+%7D+.contact+.section-title+em+%7B+color%3A+var(--gold)%3B+%7D+.contact-sub+%7B+font-size%3A+1.15rem%3B+color%3A+rgba(250%2C247%2C242%2C0.6)%3B+font-style%3A+italic%3B+margin-bottom%3A+3rem%3B+font-weight%3A+300%3B+%7D+.contact-links+%7B+display%3A+flex%3B+justify-content%3A+center%3B+gap%3A+2rem%3B+flex-wrap%3A+wrap%3B+%7D+.contact-link+%7B+display%3A+flex%3B+align-items%3A+center%3B+gap%3A+0.8rem%3B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.75rem%3B+letter-spacing%3A+0.1em%3B+color%3A+rgba(250%2C247%2C242%2C0.7)%3B+text-decoration%3A+none%3B+border%3A+1px+solid+rgba(201%2C168%2C76%2C0.2)%3B+padding%3A+1rem+1.8rem%3B+transition%3A+all+0.3s%3B+%7D+.contact-link%3Ahover+%7B+color%3A+var(--gold)%3B+border-color%3A+var(--gold)%3B+background%3A+rgba(201%2C168%2C76%2C0.05)%3B+%7D+%2F*+%E2%94%80%E2%94%80+FOOTER+%E2%94%80%E2%94%80+*%2F+footer+%7B+background%3A+%230e0c0a%3B+padding%3A+2rem+6rem%3B+display%3A+flex%3B+justify-content%3A+space-between%3B+align-items%3A+center%3B+border-top%3A+1px+solid+rgba(201%2C168%2C76%2C0.1)%3B+%7D+.footer-text+%7B+font-family%3A+%27JetBrains+Mono%27%2C+monospace%3B+font-size%3A+0.6rem%3B+letter-spacing%3A+0.15em%3B+color%3A+rgba(250%2C247%2C242%2C0.3)%3B+text-transform%3A+uppercase%3B+%7D+.footer-brand+%7B+font-family%3A+%27Playfair+Display%27%2C+serif%3B+font-size%3A+1rem%3B+font-style%3A+italic%3B+color%3A+var(--gold)%3B+%7D+%2F*+%E2%94%80%E2%94%80+ANIMATIONS+%E2%94%80%E2%94%80+*%2F+%40keyframes+fadeUp+%7B+from+%7B+opacity%3A+0%3B+transform%3A+translateY(24px)%3B+%7D+to+++%7B+opacity%3A+1%3B+transform%3A+translateY(0)%3B+%7D+%7D+%40keyframes+fadeIn+%7B+from+%7B+opacity%3A+0%3B+%7D+to+++%7B+opacity%3A+1%3B+%7D+%7D+%40keyframes+scanLine+%7B+0%25+++%7B+left%3A+-100%25%3B+%7D+100%25+%7B+left%3A+200%25%3B+%7D+%7D+%2F*+%E2%94%80%E2%94%80+RESPONSIVE+%E2%94%80%E2%94%80+*%2F+%40media+(max-width%3A+900px)+%7B+nav+%7B+padding%3A+1rem+1.5rem%3B+%7D+.nav-links+%7B+display%3A+none%3B+%7D+.hero+%7B+grid-template-columns%3A+1fr%3B+min-height%3A+auto%3B+%7D+.hero-left+%7B+padding%3A+7rem+2rem+3rem%3B+%7D+.hero-right+%7B+height%3A+220px%3B+%7D+.about+%7B+grid-template-columns%3A+1fr%3B+gap%3A+3rem%3B+padding%3A+4rem+2rem%3B+%7D+.dual+%7B+grid-template-columns%3A+1fr%3B+%7D+.dual-card+%7B+padding%3A+3rem+2rem%3B+%7D+section+%7B+padding%3A+4rem+2rem%3B+%7D+.contact-links+%7B+flex-direction%3A+column%3B+align-items%3A+center%3B+%7D+footer+%7B+flex-direction%3A+column%3B+gap%3A+1rem%3B+text-align%3A+center%3B+%7D+.scroll-indicator+%7B+display%3A+none%3B+%7D+%7D+%3C%2Fstyle%3E+%3C%2Fhead%3E+%3Cbody%3E+%3C!--+NAV+--%3E+%3Cnav%3E+%3Ca+href%3D%22%23%22+class%3D%22nav-logo%22%3EN%3Cspan%3E.%3C%2Fspan%3EDubey%3C%2Fa%3E+%3Cul+class%3D%22nav-links%22%3E+%3Cli%3E%3Ca+href%3D%22%23about%22%3EAbout%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23identity%22%3EIdentity%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23education%22%3EEducation%3C%2Fa%3E%3C%2Fli%3E+%3Cli%3E%3Ca+href%3D%22%23contact%22%3EContact%3C%2Fa%3E%3C%2Fli%3E+%3C%2Ful%3E+%3C%2Fnav%3E+%3C!--+HERO+--%3E+%3Csection+class%3D%22hero%22%3E+%3Cdiv+class%3D%22hero-left%22%3E+%3Cp+class%3D%22hero-tag%22%3E%E2%9C%A6+Ranchi%2C+Jharkhand+%C2%B7+India%3C%2Fp%3E+%3Ch1+class%3D%22hero-name%22%3E+Nikhil%3Cbr%3E+%3Cem%3EDubey%3C%2Fem%3E+%3C%2Fh1%3E+%3Cdiv+class%3D%22hero-divider%22%3E%3C%2Fdiv%3E+%3Cp+class%3D%22hero-tagline%22%3E+The+most+interesting+ideas+live+at+the+intersection+of+disciplines.+%3C%2Fp%3E+%3Cdiv+class%3D%22hero-pills%22%3E+%3Cspan+class%3D%22pill%22%3EMCA+Candidate%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EUPSC+Aspirant%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EPython+%C2%B7+ML%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3ESociology%3C%2Fspan%3E+%3Cspan+class%3D%22pill%22%3EAvid+Reader%3C%2Fspan%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-cta%22%3E+%3Ca+href%3D%22%23about%22+class%3D%22btn-primary%22%3EExplore%3C%2Fa%3E+%3Ca+href%3D%22mailto%3Anikhildubey056%40gmail.com%22+class%3D%22btn-outline%22%3EGet+in+Touch%3C%2Fa%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22scroll-indicator%22%3E+%3Cdiv+class%3D%22scroll-line%22%3E%3C%2Fdiv%3E+%3Cspan+class%3D%22scroll-text%22%3EScroll%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-right%22%3E+%3Cdiv+class%3D%22hero-monogram%22%3EN%3C%2Fdiv%3E+%3Cdiv+class%3D%22hero-quote%22%3E+%3Cp%3E%22Menace+to+Monk%22%3C%2Fp%3E+%3Cspan%3EA+transformation+story%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+ABOUT+--%3E+%3Csection+class%3D%22about%22+id%3D%22about%22%3E+%3Cdiv%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Who+I+Am%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EA+mind+that%3Cbr%3Erefuses+to%3Cbr%3E%3Cem%3Estay+in+one+lane%3C%2Fem%3E%3C%2Fh2%3E+%3C%2Fdiv%3E+%3Cdiv%3E+%3Cdiv+class%3D%22about-text%22%3E+%3Cp%3EI+am+a+%3Cstrong%3Ecomputer+science+enthusiast%3C%2Fstrong%3E+with+a+solid+foundation+in+programming%2C+data+structures%2C+networking%2C+and+operating+systems+%E2%80%94+currently+pursuing+my+MCA+at+Marwari+College%2C+Ranchi.%3C%2Fp%3E+%3Cp%3EBeyond+the+terminal%2C+I+have+cultivated+a+working+knowledge+of+%3Cstrong%3EUPSC-oriented+subjects%3C%2Fstrong%3E+%E2%80%94+particularly+Sociology+and+General+Studies+%E2%80%94+which+has+sharpened+my+ability+to+think+critically+about+society%2C+governance%2C+and+human+systems.%3C%2Fp%3E+%3Cp%3EReading+%3Cstrong%3Eliterary+fiction%3C%2Fstrong%3E+strengthens+my+analytical+reasoning+and+articulation.+I+believe+technology+always+operates+within+a+human+context%2C+and+the+best+solutions+are+built+by+people+who+can+think+both+systemically+and+empathetically.%3C%2Fp%3E+%3Cp%3EThat%27s+the+kind+of+thinker+I+am+working+to+become.%3C%2Fp%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22about-stats%22+style%3D%22margin-top%3A3rem%3B%22%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EMCA%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EComputer+Science%3Cbr%3EMarwari+College%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EIAS%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EAspiring+Civil%3Cbr%3EServant+%C2%B7+UPSC%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3EML%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EMachine+Learning%3Cbr%3E%26+Python+Dev%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-card%22%3E+%3Cdiv+class%3D%22stat-number%22%3E%F0%9F%93%9A%3C%2Fdiv%3E+%3Cdiv+class%3D%22stat-label%22%3EAvid+Reader%3Cbr%3ELiterary+Fiction%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+DUAL+IDENTITY+--%3E+%3Cdiv+class%3D%22dual%22+id%3D%22identity%22%3E+%3Cdiv+class%3D%22dual-card%22%3E+%3Cspan+class%3D%22dual-icon%22%3E%F0%9F%92%BB%3C%2Fspan%3E+%3Cdiv+class%3D%22dual-sub%22%3ETechnical+Identity%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-title%22%3EThe+Engineer%3C%2Fdiv%3E+%3Cp+class%3D%22dual-desc%22%3E+Grounded+in+the+core+pillars+of+computer+science+%E2%80%94+from+programming+paradigms+to+algorithms%2C+networking+protocols+to+operating+systems.+Currently+building+expertise+in+Machine+Learning+and+AI.+%3C%2Fp%3E+%3Cdiv+class%3D%22dual-skills%22%3E+%3Cspan+class%3D%22dual-skill%22%3EPython%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EC%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EMachine+Learning%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EAlgorithms%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EDSA%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3ENetworking%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EOS%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-card%22%3E+%3Cspan+class%3D%22dual-icon%22%3E%F0%9F%8F%9B%EF%B8%8F%3C%2Fspan%3E+%3Cdiv+class%3D%22dual-sub%22%3ECivil+Service+Identity%3C%2Fdiv%3E+%3Cdiv+class%3D%22dual-title%22%3EThe+Aspirant%3C%2Fdiv%3E+%3Cp+class%3D%22dual-desc%22%3E+Deeply+invested+in+UPSC+preparation+%E2%80%94+studying+Sociology+and+General+Studies+to+analyze+social+structures%2C+governance+frameworks%2C+and+human+systems+with+rigor+and+nuance.+Ranchi+%E2%86%92+LBSNAA.+%3C%2Fp%3E+%3Cdiv+class%3D%22dual-skills%22%3E+%3Cspan+class%3D%22dual-skill%22%3ESociology%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EGeneral+Studies%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EPolity%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EHistory%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EGovernance%3C%2Fspan%3E+%3Cspan+class%3D%22dual-skill%22%3EPublic+Policy%3C%2Fspan%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C!--+EDUCATION+--%3E+%3Csection+class%3D%22education%22+id%3D%22education%22%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Academic+Journey%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EEducation+%26%3Cbr%3E%3Cem%3EFormation%3C%2Fem%3E%3C%2Fh2%3E+%3Cdiv+class%3D%22edu-timeline%22%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EMay+2024+%E2%80%94+June+2026%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EMaster+of+Computer+Applications%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3EMarwari+College%2C+Ranchi+%C2%B7+Computer+Science%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EMay+2021+%E2%80%94+May+2024%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EBachelor+of+Applied+Science%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3EGossner+College%2C+Ranchi+%C2%B7+Information+Technology%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-item%22%3E+%3Cdiv+class%3D%22edu-year%22%3EJuly+2019+%E2%80%94+July+2021%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-degree%22%3EIntermediate+%C2%B7+Class+XII%3C%2Fdiv%3E+%3Cdiv+class%3D%22edu-school%22%3ESt.+Xavier%27s+College%2C+Ranchi+%C2%B7+Science%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+PHILOSOPHY+--%3E+%3Csection+class%3D%22philosophy%22%3E+%3Cp+class%3D%22philosophy-quote%22%3E+%22The+best+solutions+are+built+by+people+who+can+think+systemically+and+empathetically+%E2%80%94+who+can+write+clean+code+and+communicate+it+clearly%2C+who+can+solve+a+problem+and+ask+whether+it%27s+the+right+problem+to+solve.%22+%3C%2Fp%3E+%3Cp+class%3D%22philosophy-attr%22%3E%E2%80%94+Nikhil+Dubey+%C2%B7+Personal+Philosophy%3C%2Fp%3E+%3C%2Fsection%3E+%3C!--+CONTACT+--%3E+%3Csection+class%3D%22contact%22+id%3D%22contact%22%3E+%3Cp+class%3D%22section-label%22%3E%E2%9C%A6+Let%27s+Connect%3C%2Fp%3E+%3Ch2+class%3D%22section-title%22%3EReach+Out+%26%3Cbr%3E%3Cem%3ESay+Hello%3C%2Fem%3E%3C%2Fh2%3E+%3Cp+class%3D%22contact-sub%22%3EAlways+open+to+conversations+about+technology%2C+civil+services%2C+books%2C+or+ideas.%3C%2Fp%3E+%3Cdiv+class%3D%22contact-links%22%3E+%3Ca+href%3D%22mailto%3Anikhildubey056%40gmail.com%22+class%3D%22contact-link%22%3E+%3Cspan%3E%E2%9C%89%3C%2Fspan%3E+nikhildubey056%40gmail.com+%3C%2Fa%3E+%3Ca+href%3D%22https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnikhildubey01%22+target%3D%22_blank%22+class%3D%22contact-link%22%3E+%3Cspan%3Ein%3C%2Fspan%3E+linkedin.com%2Fin%2Fnikhildubey01+%3C%2Fa%3E+%3Ca+href%3D%22%23%22+class%3D%22contact-link%22%3E+%3Cspan%3E%F0%9F%93%8D%3C%2Fspan%3E+Ranchi%2C+Jharkhand%2C+India+%3C%2Fa%3E+%3C%2Fdiv%3E+%3C%2Fsection%3E+%3C!--+FOOTER+--%3E+%3Cfooter%3E+%3Cspan+class%3D%22footer-text%22%3E%C2%A9+2026+Nikhil+Dubey+%C2%B7+All+rights+reserved%3C%2Fspan%3E+%3Cspan+class%3D%22footer-brand%22%3EMenace+to+Monk%3C%2Fspan%3E+%3Cspan+class%3D%22footer-text%22%3EBuilt+with+purpose%3C%2Fspan%3E+%3C%2Ffooter%3E+%3Cscript%3E+%2F%2F+Scroll+reveal+for+education+items+const+observer+%3D+new+IntersectionObserver((entries)+%3D%3E+%7B+entries.forEach((entry%2C+i)+%3D%3E+%7B+if+(entry.isIntersecting)+%7B+setTimeout(()+%3D%3E+entry.target.classList.add(%27visible%27)%2C+i+*+150)%3B+%7D+%7D)%3B+%7D%2C+%7B+threshold%3A+0.2+%7D)%3B+document.querySelectorAll(%27.edu-item%27).forEach(el+%3D%3E+observer.observe(el))%3B+%2F%2F+Smooth+active+nav+const+sections+%3D+document.querySelectorAll(%27section%5Bid%5D%2C+div%5Bid%5D%27)%3B+const+navLinks+%3D+document.querySelectorAll(%27.nav-links+a%27)%3B+window.addEventListener(%27scroll%27%2C+()+%3D%3E+%7B+let+current+%3D+%27%27%3B+sections.forEach(sec+%3D%3E+%7B+if+(window.scrollY+%3E%3D+sec.offsetTop+-+200)+current+%3D+sec.id%3B+%7D)%3B+navLinks.forEach(link+%3D%3E+%7B+link.style.color+%3D+link.getAttribute(%27href%27)+%3D%3D%3D+%60%23%24%7Bcurrent%7D%60+%3F+%27var(--gold)%27+%3A+%27%27%3B+%7D)%3B+%7D)%3B+%3C%2Fscript%3E+%3C%2Fbody%3E+%3C%2Fhtml%3E&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzcxOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhil Dubey — Menace to Monk</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1410;
+    --parchment: #f5f0e8;
+    --gold: #c9a84c;
+    --gold-light: #e8d5a3;
+    --rust: #8b3a2a;
+    --sage: #4a6741;
+    --cream: #faf7f2;
+    --muted: #6b5c4e;
+    --border: rgba(201,168,76,0.3);
+  }
+ 
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+  html { scroll-behavior: smooth; }
+ 
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Cormorant Garamond', serif;
+    overflow-x: hidden;
+  }
+ 
+  /* Grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.4;
+  }
+ 
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 4rem;
+    background: rgba(250,247,242,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+ 
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    text-decoration: none;
+  }
+ 
+  .nav-logo span { color: var(--gold); }
+ 
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+ 
+  .nav-links a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+ 
+  .nav-links a:hover { color: var(--gold); }
+ 
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 4rem 4rem 6rem;
+    position: relative;
+  }
+ 
+  .hero-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.2s forwards;
+  }
+ 
+  .hero-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 5vw, 5.5rem);
+    font-weight: 900;
+    line-height: 1.0;
+    color: var(--ink);
+    opacity: 0;
+    animation: fadeUp 0.8s 0.4s forwards;
+  }
+ 
+  .hero-name em {
+    font-style: italic;
+    color: var(--gold);
+    display: block;
+  }
+ 
+  .hero-divider {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin: 2rem 0;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.6s forwards;
+  }
+ 
+  .hero-tagline {
+    font-size: 1.35rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 400px;
+    opacity: 0;
+    animation: fadeUp 0.8s 0.8s forwards;
+  }
+ 
+  .hero-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 2.5rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 1s forwards;
+  }
+ 
+  .pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    color: var(--muted);
+    background: rgba(201,168,76,0.06);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+ 
+  .pill:hover {
+    background: var(--gold);
+    color: var(--cream);
+    border-color: var(--gold);
+  }
+ 
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    opacity: 0;
+    animation: fadeUp 0.8s 1.2s forwards;
+  }
+ 
+  .btn-primary {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.85rem 2rem;
+    background: var(--ink);
+    color: var(--cream);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+ 
+  .btn-primary:hover { background: var(--gold); }
+ 
+  .btn-outline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.85rem 2rem;
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+ 
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+ 
+  .hero-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+ 
+  .hero-right::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--gold-light) 0%, var(--parchment) 50%, #d4c5a0 100%);
+    opacity: 0.4;
+  }
+ 
+  .hero-monogram {
+    position: relative;
+    z-index: 2;
+    font-family: 'Playfair Display', serif;
+    font-size: 22vw;
+    font-weight: 900;
+    font-style: italic;
+    color: rgba(201,168,76,0.12);
+    line-height: 1;
+    user-select: none;
+    opacity: 0;
+    animation: fadeIn 1.2s 0.5s forwards;
+  }
+ 
+  .hero-quote {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 3;
+    opacity: 0;
+    animation: fadeUp 0.8s 1.4s forwards;
+  }
+ 
+  .hero-quote p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.05rem;
+    font-style: italic;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+ 
+  .hero-quote span {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+  }
+ 
+  /* ── SCROLL INDICATOR ── */
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0;
+    animation: fadeIn 1s 2s forwards;
+  }
+ 
+  .scroll-line {
+    width: 40px;
+    height: 1px;
+    background: var(--gold);
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .scroll-line::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: var(--ink);
+    animation: scanLine 2s infinite;
+  }
+ 
+  .scroll-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+ 
+  /* ── SECTION BASE ── */
+  section {
+    padding: 7rem 6rem;
+    position: relative;
+  }
+ 
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+ 
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+  }
+ 
+  .section-title em { font-style: italic; color: var(--gold); }
+ 
+  /* ── ABOUT ── */
+  .about {
+    background: var(--ink);
+    color: var(--cream);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 6rem;
+    align-items: center;
+  }
+ 
+  .about .section-label { color: var(--gold); }
+  .about .section-title { color: var(--cream); }
+  .about .section-title em { color: var(--gold); }
+ 
+  .about-text {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: rgba(250,247,242,0.75);
+    font-weight: 300;
+  }
+ 
+  .about-text p + p { margin-top: 1.2rem; }
+ 
+  .about-text strong {
+    color: var(--gold-light);
+    font-weight: 600;
+  }
+ 
+  .about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+ 
+  .stat-card {
+    border: 1px solid rgba(201,168,76,0.2);
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+ 
+  .stat-card:hover { border-color: var(--gold); }
+ 
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 0;
+    background: var(--gold);
+    transition: height 0.4s;
+  }
+ 
+  .stat-card:hover::before { height: 100%; }
+ 
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1;
+  }
+ 
+  .stat-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(250,247,242,0.5);
+    margin-top: 0.5rem;
+  }
+ 
+  /* ── DUAL IDENTITY ── */
+  .dual {
+    background: var(--parchment);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0;
+  }
+ 
+  .dual-card {
+    padding: 6rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+ 
+  .dual-card:first-child {
+    background: #1a2a1a;
+    color: var(--cream);
+  }
+ 
+  .dual-card:last-child {
+    background: #2a1a0e;
+    color: var(--cream);
+  }
+ 
+  .dual-card:hover { transform: scale(1.02); z-index: 2; }
+ 
+  .dual-icon {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    display: block;
+  }
+ 
+  .dual-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+ 
+  .dual-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(250,247,242,0.5);
+    margin-bottom: 1.5rem;
+  }
+ 
+  .dual-desc {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: rgba(250,247,242,0.7);
+    font-weight: 300;
+  }
+ 
+  .dual-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+ 
+  .dual-skill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid rgba(201,168,76,0.3);
+    color: var(--gold-light);
+    text-transform: uppercase;
+  }
+ 
+  /* ── EDUCATION ── */
+  .education { background: var(--cream); }
+ 
+  .edu-timeline {
+    position: relative;
+    margin-top: 4rem;
+    padding-left: 3rem;
+  }
+ 
+  .edu-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, var(--gold), transparent);
+  }
+ 
+  .edu-item {
+    position: relative;
+    padding: 0 0 4rem 3rem;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.6s;
+  }
+ 
+  .edu-item.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+ 
+  .edu-item::before {
+    content: '';
+    position: absolute;
+    left: -4px; top: 8px;
+    width: 9px; height: 9px;
+    background: var(--gold);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--cream), 0 0 0 4px var(--gold);
+  }
+ 
+  .edu-year {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .edu-degree {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+ 
+  .edu-school {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: var(--muted);
+  }
+ 
+  /* ── PHILOSOPHY ── */
+  .philosophy {
+    background: var(--gold);
+    text-align: center;
+    padding: 8rem 6rem;
+  }
+ 
+  .philosophy-quote {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--ink);
+    line-height: 1.4;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+  }
+ 
+  .philosophy-attr {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(26,20,16,0.6);
+  }
+ 
+  /* ── CONTACT ── */
+  .contact {
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    padding: 8rem 6rem;
+  }
+ 
+  .contact .section-label { color: var(--gold); }
+  .contact .section-title { color: var(--cream); }
+  .contact .section-title em { color: var(--gold); }
+ 
+  .contact-sub {
+    font-size: 1.15rem;
+    color: rgba(250,247,242,0.6);
+    font-style: italic;
+    margin-bottom: 3rem;
+    font-weight: 300;
+  }
+ 
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+ 
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: rgba(250,247,242,0.7);
+    text-decoration: none;
+    border: 1px solid rgba(201,168,76,0.2);
+    padding: 1rem 1.8rem;
+    transition: all 0.3s;
+  }
+ 
+  .contact-link:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(201,168,76,0.05);
+  }
+ 
+  /* ── FOOTER ── */
+  footer {
+    background: #0e0c0a;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(201,168,76,0.1);
+  }
+ 
+  .footer-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: rgba(250,247,242,0.3);
+    text-transform: uppercase;
+  }
+ 
+  .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--gold);
+  }
+ 
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+ 
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+ 
+  @keyframes scanLine {
+    0%   { left: -100%; }
+    100% { left: 200%; }
+  }
+ 
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { display: none; }
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-left { padding: 7rem 2rem 3rem; }
+    .hero-right { height: 220px; }
+    .about { grid-template-columns: 1fr; gap: 3rem; padding: 4rem 2rem; }
+    .dual { grid-template-columns: 1fr; }
+    .dual-card { padding: 3rem 2rem; }
+    section { padding: 4rem 2rem; }
+    .contact-links { flex-direction: column; align-items: center; }
+    footer { flex-direction: column; gap: 1rem; text-align: center; }
+    .scroll-indicator { display: none; }
+  }
+</style>
+</head>
+<body>
+ 
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">N<span>.</span>Dubey</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#identity">Identity</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+ 
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-tag">✦ Ranchi, Jharkhand · India</p>
+    <h1 class="hero-name">
+      Nikhil<br>
+      <em>Dubey</em>
+    </h1>
+    <div class="hero-divider"></div>
+    <p class="hero-tagline">
+      The most interesting ideas live at the intersection of disciplines.
+    </p>
+    <div class="hero-pills">
+      <span class="pill">MCA Candidate</span>
+      <span class="pill">UPSC Aspirant</span>
+      <span class="pill">Python · ML</span>
+      <span class="pill">Sociology</span>
+      <span class="pill">Avid Reader</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#about" class="btn-primary">Explore</a>
+      <a href="mailto:nikhildubey056@gmail.com" class="btn-outline">Get in Touch</a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-monogram">N</div>
+    <div class="hero-quote">
+      <p>"Menace to Monk"</p>
+      <span>A transformation story</span>
+    </div>
+  </div>
+</section>
+ 
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div>
+    <p class="section-label">✦ Who I Am</p>
+    <h2 class="section-title">A mind that<br>refuses to<br><em>stay in one lane</em></h2>
+  </div>
+  <div>
+    <div class="about-text">
+      <p>I am a <strong>computer science enthusiast</strong> with a solid foundation in programming, data structures, networking, and operating systems — currently pursuing my MCA at Marwari College, Ranchi.</p>
+      <p>Beyond the terminal, I have cultivated a working knowledge of <strong>UPSC-oriented subjects</strong> — particularly Sociology and General Studies — which has sharpened my ability to think critically about society, governance, and human systems.</p>
+      <p>Reading <strong>literary fiction</strong> strengthens my analytical reasoning and articulation. I believe technology always operates within a human context, and the best solutions are built by people who can think both systemically and empathetically.</p>
+      <p>That's the kind of thinker I am working to become.</p>
+    </div>
+    <div class="about-stats" style="margin-top:3rem;">
+      <div class="stat-card">
+        <div class="stat-number">MCA</div>
+        <div class="stat-label">Computer Science<br>Marwari College</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">IAS</div>
+        <div class="stat-label">Aspiring Civil<br>Servant · UPSC</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">ML</div>
+        <div class="stat-label">Machine Learning<br>& Python Dev</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">📚</div>
+        <div class="stat-label">Avid Reader<br>Literary Fiction</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- DUAL IDENTITY -->
+<div class="dual" id="identity">
+  <div class="dual-card">
+    <span class="dual-icon">💻</span>
+    <div class="dual-sub">Technical Identity</div>
+    <div class="dual-title">The Engineer</div>
+    <p class="dual-desc">
+      Grounded in the core pillars of computer science — from programming paradigms to algorithms, networking protocols to operating systems. Currently building expertise in Machine Learning and AI.
+    </p>
+    <div class="dual-skills">
+      <span class="dual-skill">Python</span>
+      <span class="dual-skill">C</span>
+      <span class="dual-skill">Machine Learning</span>
+      <span class="dual-skill">Algorithms</span>
+      <span class="dual-skill">DSA</span>
+      <span class="dual-skill">Networking</span>
+      <span class="dual-skill">OS</span>
+    </div>
+  </div>
+  <div class="dual-card">
+    <span class="dual-icon">🏛️</span>
+    <div class="dual-sub">Civil Service Identity</div>
+    <div class="dual-title">The Aspirant</div>
+    <p class="dual-desc">
+      Deeply invested in UPSC preparation — studying Sociology and General Studies to analyze social structures, governance frameworks, and human systems with rigor and nuance. Ranchi → LBSNAA.
+    </p>
+    <div class="dual-skills">
+      <span class="dual-skill">Sociology</span>
+      <span class="dual-skill">General Studies</span>
+      <span class="dual-skill">Polity</span>
+      <span class="dual-skill">History</span>
+      <span class="dual-skill">Governance</span>
+      <span class="dual-skill">Public Policy</span>
+    </div>
+  </div>
+</div>
+ 
+<!-- EDUCATION -->
+<section class="education" id="education">
+  <p class="section-label">✦ Academic Journey</p>
+  <h2 class="section-title">Education &<br><em>Formation</em></h2>
+  <div class="edu-timeline">
+    <div class="edu-item">
+      <div class="edu-year">May 2024 — June 2026</div>
+      <div class="edu-degree">Master of Computer Applications</div>
+      <div class="edu-school">Marwari College, Ranchi · Computer Science</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-year">May 2021 — May 2024</div>
+      <div class="edu-degree">Bachelor of Applied Science</div>
+      <div class="edu-school">Gossner College, Ranchi · Information Technology</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-year">July 2019 — July 2021</div>
+      <div class="edu-degree">Intermediate · Class XII</div>
+      <div class="edu-school">St. Xavier's College, Ranchi · Science</div>
+    </div>
+  </div>
+</section>
+ 
+<!-- PHILOSOPHY -->
+<section class="philosophy">
+  <p class="philosophy-quote">
+    "The best solutions are built by people who can think systemically and empathetically — who can write clean code and communicate it clearly, who can solve a problem and ask whether it's the right problem to solve."
+  </p>
+  <p class="philosophy-attr">— Nikhil Dubey · Personal Philosophy</p>
+</section>
+ 
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <p class="section-label">✦ Let's Connect</p>
+  <h2 class="section-title">Reach Out &<br><em>Say Hello</em></h2>
+  <p class="contact-sub">Always open to conversations about technology, civil services, books, or ideas.</p>
+  <div class="contact-links">
+    <a href="mailto:nikhildubey056@gmail.com" class="contact-link">
+      <span>✉</span> nikhildubey056@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/nikhildubey01" target="_blank" class="contact-link">
+      <span>in</span> linkedin.com/in/nikhildubey01
+    </a>
+    <a href="#" class="contact-link">
+      <span>📍</span> Ranchi, Jharkhand, India
+    </a>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer>
+  <span class="footer-text">© 2026 Nikhil Dubey · All rights reserved</span>
+  <span class="footer-brand">Menace to Monk</span>
+  <span class="footer-text">Built with purpose</span>
+</footer>
+ 
+<script>
+  // Scroll reveal for education items
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 150);
+      }
+    });
+  }, { threshold: 0.2 });
+ 
+  document.querySelectorAll('.edu-item').forEach(el => observer.observe(el));
+ 
+  // Smooth active nav
+  const sections = document.querySelectorAll('section[id], div[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+ 
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(sec => {
+      if (window.scrollY >= sec.offsetTop - 200) current = sec.id;
+    });
+    navLinks.forEach(link => {
+      link.style.color = link.getAttribute('href') === `#${current}` ? 'var(--gold)' : '';
+    });
+  });
+</script>
+</body>
+</html>
+ 
