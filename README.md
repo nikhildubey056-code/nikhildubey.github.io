@@ -407,7 +407,7 @@ footer{
  
   <!-- Spline 3D scene as background -->
   <div class="spline-bg">
-    <spline-viewer url="https://prod.spline.design/cVAFIa1xEUNU4GDp/scene.splinecode"></spline-viewer>
+<spline-viewer url="https://prod.spline.design/WLbXlAZg1QbguGNg/scene.splinecode"></spline-viewer>
   </div>
  
   <!-- Gradient overlay for readability -->
