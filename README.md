@@ -20,11 +20,11 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:#0d0b09;color:var(--cream);font-family:'Cormorant Garamond',serif;overflow-x:hidden;cursor:none;}
- 
+
 /* Custom cursor */
 #cursor{position:fixed;width:10px;height:10px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform 0.12s;}
 #cring{position:fixed;width:36px;height:36px;border:1px solid var(--gold);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:left 0.12s,top 0.12s,opacity 0.3s;opacity:0.5;}
- 
+
 /* ── HERO with Spline background ── */
 .hero{
   position:relative;
@@ -33,7 +33,7 @@ body{background:#0d0b09;color:var(--cream);font-family:'Cormorant Garamond',seri
   align-items:center;
   overflow:hidden;
 }
- 
+
 /* Spline viewer fills the hero */
 .spline-bg{
   position:absolute;
@@ -47,7 +47,7 @@ spline-viewer{
   height:100%;
   display:block;
 }
- 
+
 /* Dark gradient overlay so text remains readable */
 .hero-overlay{
   position:absolute;
@@ -58,7 +58,7 @@ spline-viewer{
     linear-gradient(0deg, rgba(13,11,9,0.7) 0%, transparent 40%);
   pointer-events:none;
 }
- 
+
 /* Noise grain texture */
 .hero-grain{
   position:absolute;
@@ -68,7 +68,7 @@ spline-viewer{
   background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
   pointer-events:none;
 }
- 
+
 /* Hero content */
 .hero-content{
   position:relative;
@@ -135,7 +135,7 @@ spline-viewer{
 .btn-ghost:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-3px);}
 .btn-gold{background:var(--gold);color:var(--ink);}
 .btn-gold:hover{background:#e8c055;transform:translateY(-3px);box-shadow:0 12px 30px rgba(201,168,76,0.35);}
- 
+
 /* Scroll hint */
 .scroll-hint{
   position:absolute;bottom:2.5rem;left:6rem;z-index:3;
@@ -144,7 +144,7 @@ spline-viewer{
 }
 .scroll-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite;}
 .scroll-label{font-family:'JetBrains Mono',monospace;font-size:0.58rem;letter-spacing:0.22em;text-transform:uppercase;color:rgba(250,247,242,0.35);}
- 
+
 /* NAV */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
@@ -173,7 +173,7 @@ nav.scrolled{padding:0.7rem 4rem;background:rgba(13,11,9,0.85);}
   background:var(--gold);color:var(--ink);text-decoration:none;transition:all 0.3s;
 }
 .nav-cta:hover{background:#e8c055;transform:translateY(-1px);}
- 
+
 /* ACTION STRIP */
 .action-strip{
   background:#0d0b09;display:grid;grid-template-columns:repeat(4,1fr);
@@ -192,7 +192,7 @@ nav.scrolled{padding:0.7rem 4rem;background:rgba(13,11,9,0.85);}
 .tile-icon{font-size:1.4rem;flex-shrink:0;margin-top:0.1rem;}
 .tile-label{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:0.3rem;}
 .tile-desc{font-size:0.9rem;color:rgba(250,247,242,0.3);font-style:italic;}
- 
+
 /* SECTIONS */
 section{padding:7rem 6rem;position:relative;}
 .s-label{
@@ -206,7 +206,7 @@ section{padding:7rem 6rem;position:relative;}
   font-size:clamp(2rem,3.5vw,3.4rem);font-weight:700;line-height:1.05;margin-bottom:1.5rem;
 }
 .s-title em{font-style:italic;color:var(--gold);}
- 
+
 /* ABOUT */
 .about{background:#111009;}
 .about-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:7rem;align-items:center;}
@@ -221,7 +221,7 @@ section{padding:7rem 6rem;position:relative;}
 .stat:hover{border-color:rgba(201,168,76,0.4);transform:translateY(-4px);background:rgba(201,168,76,0.03);}
 .stat-n{font-family:'Playfair Display',serif;font-size:2.6rem;font-weight:900;color:var(--gold);line-height:1;}
 .stat-l{font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(250,247,242,0.3);margin-top:0.5rem;}
- 
+
 /* ARTICLES */
 .articles-section{background:#0d0b09;}
 .arts-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3.5rem;}
@@ -241,7 +241,7 @@ section{padding:7rem 6rem;position:relative;}
 .art-read{font-family:'JetBrains Mono',monospace;font-size:0.58rem;color:var(--gold);text-transform:uppercase;letter-spacing:0.1em;}
 .empty-arts{grid-column:1/-1;border:1px dashed rgba(201,168,76,0.15);padding:5rem;text-align:center;}
 .empty-arts p{font-style:italic;color:rgba(250,247,242,0.35);font-size:1.1rem;margin-bottom:2rem;}
- 
+
 /* DUAL */
 .dual{display:grid;grid-template-columns:1fr 1fr;}
 .dual-card{padding:6rem;position:relative;overflow:hidden;transition:all 0.5s;}
@@ -268,7 +268,7 @@ section{padding:7rem 6rem;position:relative;}
   color:rgba(201,168,76,0.6);text-transform:uppercase;transition:all 0.3s;cursor:default;
 }
 .dual-tag:hover{background:rgba(201,168,76,0.08);border-color:rgba(201,168,76,0.35);}
- 
+
 /* EDUCATION */
 .education{background:#111009;}
 .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:6rem;margin-top:4rem;align-items:start;}
@@ -290,7 +290,7 @@ section{padding:7rem 6rem;position:relative;}
 .edu-card:hover{transform:translateX(6px);}
 .edu-card-label{font-family:'JetBrains Mono',monospace;font-size:0.58rem;letter-spacing:0.15em;color:var(--gold);text-transform:uppercase;margin-bottom:0.6rem;}
 .edu-card-text{font-size:1rem;color:rgba(250,247,242,0.5);line-height:1.7;font-style:italic;}
- 
+
 /* PHILOSOPHY */
 .philosophy{
   background:var(--gold);padding:7rem 6rem;text-align:center;
@@ -308,7 +308,7 @@ section{padding:7rem 6rem;position:relative;}
   position:relative;z-index:1;
 }
 .phil-attr{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(26,20,16,0.5);}
- 
+
 /* CONTACT */
 .contact{background:#0d0b09;text-align:center;padding:8rem 6rem;}
 .contact .s-label{justify-content:center;}
@@ -322,7 +322,7 @@ section{padding:7rem 6rem;position:relative;}
 }
 .contact-card:hover{border-color:rgba(201,168,76,0.5);color:var(--gold);transform:translateY(-4px);}
 .contact-card-icon{font-size:1.1rem;opacity:0.7;}
- 
+
 /* FOOTER */
 footer{
   background:#080706;padding:2rem 6rem;
@@ -331,7 +331,7 @@ footer{
 }
 .footer-l{font-family:'JetBrains Mono',monospace;font-size:0.58rem;letter-spacing:0.15em;color:rgba(250,247,242,0.2);text-transform:uppercase;}
 .footer-c{font-family:'Playfair Display',serif;font-size:1rem;font-style:italic;color:var(--gold);}
- 
+
 /* MODAL */
 .modal-bg{position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:500;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.35s;backdrop-filter:blur(10px);}
 .modal-bg.open{opacity:1;pointer-events:all;}
@@ -350,24 +350,24 @@ footer{
 .modal-btns{display:flex;gap:1rem;margin-top:2rem;}
 .mbtn{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;padding:0.85rem 1.5rem;cursor:pointer;transition:all 0.3s;border:1px solid rgba(201,168,76,0.2);background:transparent;color:rgba(250,247,242,0.5);}
 .mbtn:hover{border-color:var(--gold);color:var(--gold);}
- 
+
 /* TOAST */
 .toast{position:fixed;bottom:2rem;right:2rem;background:#1a1410;color:var(--cream);padding:1rem 2rem;font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;z-index:9995;transform:translateY(80px);opacity:0;transition:all 0.4s;border-left:3px solid var(--gold);border:1px solid rgba(201,168,76,0.2);}
 .toast.show{transform:translateY(0);opacity:1;}
- 
+
 /* REVEAL animations */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity 0.7s,transform 0.7s;}
 .reveal.visible{opacity:1;transform:none;}
 .reveal-1{transition-delay:0.1s;}
 .reveal-2{transition-delay:0.2s;}
 .reveal-3{transition-delay:0.3s;}
- 
+
 @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes expandLine{from{width:0}to{width:80px}}
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(0.7)}}
- 
+
 @media(max-width:900px){
   nav{padding:1rem 1.5rem;}
   .nav-links{display:none;}
@@ -385,10 +385,10 @@ footer{
 </style>
 </head>
 <body>
- 
+
 <div id="cursor"></div>
 <div id="cring"></div>
- 
+
 <!-- ── NAVIGATION ── -->
 <nav id="nav">
   <a href="index.html" class="nav-logo">N<span>.</span>Dubey</a>
@@ -401,20 +401,20 @@ footer{
     <li><a href="articles.html" class="nav-cta">✍ Write</a></li>
   </ul>
 </nav>
- 
+
 <!-- ── HERO with Spline 3D Background ── -->
 <section class="hero">
- 
+
   <!-- Spline 3D scene as background -->
   <div class="spline-bg">
-<spline-viewer url="https://prod.spline.design/WLbXlAZg1QbguGNg/scene.splinecode"></spline-viewer>
+    <spline-viewer url="https://prod.spline.design/BdfsbaDZ7vMBX48D/scene.splinecode"></spline-viewer>
   </div>
- 
+
   <!-- Gradient overlay for readability -->
   <div class="hero-overlay"></div>
   <!-- Grain texture -->
   <div class="hero-grain"></div>
- 
+
   <!-- Text content on top -->
   <div class="hero-content">
     <div class="hero-eyebrow">
@@ -438,14 +438,14 @@ footer{
       <a href="#contact" class="btn btn-ghost">✉ Contact</a>
     </div>
   </div>
- 
+
   <!-- Scroll hint -->
   <div class="scroll-hint">
     <div class="scroll-dot"></div>
     <span class="scroll-label">Scroll to explore</span>
   </div>
 </section>
- 
+
 <!-- ── ACTION STRIP ── -->
 <div class="action-strip">
   <a href="articles.html" class="action-tile">
@@ -465,7 +465,7 @@ footer{
     <div><div class="tile-label">LinkedIn</div><div class="tile-desc">Connect professionally</div></div>
   </a>
 </div>
- 
+
 <!-- ── ABOUT ── -->
 <section class="about" id="about">
   <div class="about-grid">
@@ -489,7 +489,7 @@ footer{
     </div>
   </div>
 </section>
- 
+
 <!-- ── ARTICLES ── -->
 <section class="articles-section" id="articles">
   <div class="arts-header">
@@ -503,7 +503,7 @@ footer{
     </div>
   </div>
 </section>
- 
+
 <!-- ── DUAL IDENTITY ── -->
 <div class="dual" id="identity">
   <div class="dual-card">
@@ -531,7 +531,7 @@ footer{
     </div>
   </div>
 </div>
- 
+
 <!-- ── EDUCATION ── -->
 <section class="education" id="education">
   <div class="s-label">Academic Journey</div>
@@ -573,13 +573,13 @@ footer{
     </div>
   </div>
 </section>
- 
+
 <!-- ── PHILOSOPHY ── -->
 <section class="philosophy">
   <p class="phil-quote">"The best solutions are built by people who can think systemically and empathetically — who can write clean code and communicate it clearly, who can solve a problem and ask whether it's the right problem to solve."</p>
   <p class="phil-attr">— Nikhil Dubey · Personal Philosophy</p>
 </section>
- 
+
 <!-- ── CONTACT ── -->
 <section class="contact" id="contact">
   <div class="s-label">Let's Connect</div>
@@ -598,14 +598,14 @@ footer{
   </div>
   <a href="articles.html" class="btn btn-gold">Read My Articles →</a>
 </section>
- 
+
 <!-- ── FOOTER ── -->
 <footer>
   <span class="footer-l">© 2026 Nikhil Dubey · All rights reserved</span>
   <span class="footer-c">Menace to Monk</span>
   <span class="footer-l">Built with purpose</span>
 </footer>
- 
+
 <!-- ── PHOTO MODAL ── -->
 <div class="modal-bg" id="photoModal">
   <div class="modal">
@@ -624,9 +624,9 @@ footer{
     </div>
   </div>
 </div>
- 
+
 <div class="toast" id="toast"></div>
- 
+
 <script>
 // ── Custom cursor ──
 const cur = document.getElementById('cursor');
@@ -639,7 +639,7 @@ document.querySelectorAll('a,button,.action-tile,.pill,.stat,.art-card,.dual-car
   el.addEventListener('mouseenter',()=>{cur.style.transform='translate(-50%,-50%) scale(2.5)';cring.style.opacity='0.15';});
   el.addEventListener('mouseleave',()=>{cur.style.transform='translate(-50%,-50%) scale(1)';cring.style.opacity='0.5';});
 });
- 
+
 // ── Nav scroll ──
 const navEl = document.getElementById('nav');
 window.addEventListener('scroll',()=>{
@@ -648,7 +648,7 @@ window.addEventListener('scroll',()=>{
   document.querySelectorAll('section[id]').forEach(s=>{if(window.scrollY>=s.offsetTop-nh-40)curSec=s.id;});
   document.querySelectorAll('.nav-links a').forEach(l=>{l.classList.toggle('active',l.getAttribute('href')==='#'+curSec);});
 });
- 
+
 // ── Smooth scroll ──
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
   a.addEventListener('click',function(e){
@@ -659,28 +659,28 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
     window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-nh-8,behavior:'smooth'});
   });
 });
- 
+
 // ── Intersection observer for reveals ──
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:0.15});
 document.querySelectorAll('.reveal,.edu-item,.edu-card,.stat').forEach(el=>obs.observe(el));
- 
+
 // ── Modal ──
 function openModal(){document.getElementById('photoModal').classList.add('open');}
 function closeModal(){document.getElementById('photoModal').classList.remove('open');}
 document.getElementById('photoModal').addEventListener('click',function(e){if(e.target===this)closeModal();});
- 
+
 function handlePhoto(e){
   const file=e.target.files[0];if(!file)return;
   const reader=new FileReader();
   reader.onload=ev=>{localStorage.setItem('nikhil_photo',ev.target.result);closeModal();showToast('Profile photo updated!');};
   reader.readAsDataURL(file);
 }
- 
+
 function removePhoto(){
   localStorage.removeItem('nikhil_photo');
   closeModal();showToast('Photo removed');
 }
- 
+
 // ── Articles ──
 function loadArticles(){
   const arts=JSON.parse(localStorage.getItem('nikhil_articles')||'[]').filter(a=>a.status==='published');
@@ -700,7 +700,7 @@ function loadArticles(){
   grid.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 }
 loadArticles();
- 
+
 // ── Toast ──
 function showToast(msg){
   const t=document.getElementById('toast');
